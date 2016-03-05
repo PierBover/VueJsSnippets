@@ -1,4 +1,4 @@
-'.text.html.basic,.text.html.vue':
+'.text.html.basic .meta.tag,.text.html.vue .meta.tag':
 	'v-text':
 		'prefix': 'text'
 		'body': 'v-text="$1"$0'
@@ -18,40 +18,53 @@
 		'prefix': 'for'
 		'body': 'v-for="$1 in $2"$0'
 	'@click':
-		'prefix': '@click'
+		'prefix': 'click'
 		'body': '@click$1="$2"$0'
 	'@submit':
-		'prefix': '@submit'
+		'prefix': 'submit'
 		'body': '@submit$1="$2"$0'
 	'@keyup':
-		'prefix': '@keyup'
+		'prefix': 'keyup'
 		'body': '@keyup$1="$2"$0'
 	'enter':
 		'prefix': 'enter'
+		'body': 'enter'
 	'tab':
 		'prefix': 'tab'
+		'body': 'tab'
 	'delete':
 		'prefix': 'delete'
+		'body': 'delete'
 	'esc':
 		'prefix': 'esc'
+		'body': 'esc'
 	'space':
 		'prefix': 'space'
+		'body': 'space'
 	'up':
 		'prefix': 'up'
+		'body': 'up'
 	'down':
 		'prefix': 'down'
+		'body': 'down'
 	'right':
 		'prefix': 'right'
+		'body': 'right'
 	'left':
 		'prefix': 'left'
+		'body': 'left'
 	'stop':
 		'prefix': 'stop'
+		'body': 'stop'
 	'prevent':
 		'prefix': 'prevent'
+		'body': 'prevent'
 	'capture':
 		'prefix': 'capture'
+		'body': 'capture'
 	'self':
 		'prefix': 'self'
+		'body': 'self'
 	':class':
 		'prefix': ':class'
 		'body': ':class="$1"$0'
@@ -63,8 +76,10 @@
 		'body': ':${1:prop}$2="$3"$0'
 	'sync':
 		'prefix': 'sync'
+		'body': 'sync'
 	'once':
 		'prefix': 'once'
+		'body': 'once'
 	'v-model':
 		'prefix': 'model'
 		'body': 'v-model="$1"$0'

@@ -11,9 +11,9 @@ For most cases the trigger is the name of the directive without the `v-`:
 * You get the idea
 
 For events I've omitted `v-on` and only included the shorthand `@`. You get a tab stop so you can write the type of event and other modifiers like `prevent` or `enter` also included as snippets.
-* `@click` + <kbd>Tab</kbd> = `@click=""`
-* `@submit` + <kbd>Tab</kbd> = `@submit=""`
-* `@keyup` + <kbd>Tab</kbd> = `@keyup=""`
+* `click` + <kbd>Tab</kbd> = `@click=""`
+* `submit` + <kbd>Tab</kbd> = `@submit=""`
+* `keyup` + <kbd>Tab</kbd> = `@keyup=""`
 
 For properties I've omitted `v-bind` and only included the shorthand `:`. Similar to the events you get a tab stop to include additional options like `sync` also included as snippets.
 * `:class` + <kbd>Tab</kbd> = `:class=""`

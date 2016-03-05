@@ -1,21 +1,31 @@
 '.text.html.basic,.text.html.vue':
 	'capitalize':
 		'prefix':'capitalize'
+		'body':'capitalize'
 	'uppercase':
 		'prefix':'uppercase'
+		'body':'uppercase'
 	'lowercase':
 		'prefix':'lowercase'
+		'body':'lowercase'
 	'currency':
 		'prefix':'currency'
+		'body':'currency'
 	'pluralize':
 		'prefix':'pluralize'
+		'body':'pluralize'
 	'json':
 		'prefix':'json'
+		'body':'json'
 	'debounce':
 		'prefix':'debounce'
+		'body':'debounce'
 	'limitBy':
 		'prefix':'limitBy'
+		'body':'limitBy'
 	'filterBy':
 		'prefix':'filterBy'
+		'body':'filterBy'
 	'orderBy':
 		'prefix':'orderBy'
+		'body':'orderBy'
