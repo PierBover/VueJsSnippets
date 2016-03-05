@@ -1,6 +1,6 @@
 {
   "name": "vue-atom-snippets",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Atom snippets for Vue.js",
   "repository": "https://github.com/PierBover/vue-atom-snippets",
   "license": "WTFPL",
