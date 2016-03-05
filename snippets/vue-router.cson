@@ -1,0 +1,22 @@
+'.text.html.basic .meta.tag, .text.html.vue .meta.tag':
+	'v-link':
+		'prefix': 'link'
+		'body': 'v-link="{path:\'/$1\'$2}"$0'
+	'params':
+		'prefix': 'params'
+		'body': 'params: {$1}$0'
+	'exact':
+		'prefix': 'exact'
+		'body': 'exact: ${1:true}$0'
+	'activeClass':
+		'prefix': 'activeclass'
+		'body': 'activeClass: \'$1\'$0'
+	'replace':
+		'prefix': 'replace'
+		'body': 'replace: ${1:true}$0'
+	'append':
+		'prefix': 'append'
+		'body': 'append: ${1:true}$0'
+	'<router-view>':
+		'prefix': 'routerview'
+		'body': '<router-view>$0</router-view>'
