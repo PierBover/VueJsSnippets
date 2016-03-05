@@ -1,13 +1,10 @@
 {
-	"name": "gsap-snippets",
-	"version": "0.4.0",
-	"description": "Atom snippets for GSAP",
-	"activationCommands": {
-	"atom-workspace": "gsap-snippets:toggle"
-	},
-	"repository": "https://github.com/PierBover/gsap-snippets",
+	"name": "vue-atom-snippets",
+	"version": "0.0.0",
+	"description": "Atom snippets for Vue.js",
+	"repository": "https://github.com/PierBover/vue-atom-snippets",
 	"license": "WTFPL",
 	"engines": {
-	"atom": ">=0.174.0 <2.0.0"
+		"atom": ">0.50.0"
 	}
 }

@@ -1,0 +1,21 @@
+'.text.html':
+	'capitalize':
+		'prefix':'capitalize'
+	'uppercase':
+		'prefix':'uppercase'
+	'lowercase':
+		'prefix':'lowercase'
+	'currency':
+		'prefix':'currency'
+	'pluralize':
+		'prefix':'pluralize'
+	'json':
+		'prefix':'json'
+	'debounce':
+		'prefix':'debounce'
+	'limitBy':
+		'prefix':'limitBy'
+	'filterBy':
+		'prefix':'filterBy'
+	'orderBy':
+		'prefix':'orderBy'
