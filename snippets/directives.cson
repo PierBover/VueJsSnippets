@@ -1,4 +1,4 @@
-'.text.html,.text.vue':
+'.text.html.basic,.text.html.vue':
 	'v-text':
 		'prefix': 'text'
 		'body': 'v-text="$1"$0'
