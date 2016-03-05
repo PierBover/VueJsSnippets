@@ -1,4 +1,4 @@
-'.text.html .meta.tag':
+'.text.html,.text.vue':
 	'v-text':
 		'prefix': 'text'
 		'body': 'v-text="$1"$0'

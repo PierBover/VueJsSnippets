@@ -1,4 +1,4 @@
-'.text.html':
+'.text.html,.text.vue':
 	'capitalize':
 		'prefix':'capitalize'
 	'uppercase':

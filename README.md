@@ -2,7 +2,7 @@
 A collection of Atom snippets for Vue.js
 
 ###Directives
-All directives in the [Vue.js API](http://vuejs.org/api/#Directives) are included. These will only trigger inside an HTML tag.
+All directives in the [Vue.js API](http://vuejs.org/api/#Directives) are included.
 
 For most cases the trigger is the name of the directive without the `v-`:
 * `text` + <kbd>Tab</kbd> = `v-text=""`
