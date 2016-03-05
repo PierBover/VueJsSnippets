@@ -1,8 +1,8 @@
-'.text.html.basic, .text.html.vue':
+'.text.html.basic .meta.tag, .text.html.vue .meta.tag':
 	'v-text':
 		'prefix': 'text'
 		'body': 'v-text="$1"$0'
-	'v-html':
+	'Vue v-html':
 		'prefix': 'html'
 		'body': 'v-html="$1"$0'
 	'v-if':
